@@ -3,8 +3,8 @@ services:
   - docker
 
 before_install:
-  - chmod +x /app/coverage
+  
   - docker build -t test -f Dockerfile.dev .
 
 script:
-  - docker run test npm run test -- --coverage
+  - docker run test npm run test
