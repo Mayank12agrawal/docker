@@ -14,8 +14,8 @@ deploy:
   region: "ap-south-1"
   app: "docker1"
   env: "Docker1-env"
-  bucket_name: "mysecondbu"
-  bucket_path: "docker1"
+  bucket_name: "elasticbeanstalk-ap-south-1-946330540023"
+  bucket_path: "docker"
   on:
     branch: main
   access_key_id: $Aws_access_key
